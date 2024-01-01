@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    filter: none;
+  }
+  
+  .birthday-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    color: #fff;
+    z-index: 999; /* Ensure the text is on top */
+  }
